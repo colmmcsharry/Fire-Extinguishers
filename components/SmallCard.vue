@@ -1,5 +1,5 @@
 <template lang="pug">
-  .card-container
+  NuxtLink.card-container(:to="`/products/${card.id}`")
     img.image(:src="require(`@/assets/images/${card.image || 'fe1.jpg'}`)" 
               :alt="card.title")
 </template>

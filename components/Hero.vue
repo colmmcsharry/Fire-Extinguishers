@@ -2,14 +2,15 @@
   .Hero.container
     .text-container
         h1.header Find your Fire Extinguisher!
-        p.snippet Nulla tempor ea aliqua consectetur veniam minim. Labore amet enim ex aute laborum voluptate mollit enim cupidatat. Veniam cupidatat non consequat nostrud excepteur mollit adipisicing nostrud duis nisi veniam. Officia nisi aliqua irure nulla sit. Incididunt est elit incididunt labore ad consectetur Lorem. Cillum deserunt eu ut mollit ullamco sit.
+        p.snippet Nulla tempor ea aliqua consectetur veniam minim. Labore amet enim ex aute laborum voluptate mollit enim cupidatat. 
         button.button Start Looking
     img.image(src="~assets/svg/fire-extinguisher.svg" alt="main fire extinguisher")     
 </template>
 
 <script>
-export default {
 
+export default {
+    
 }
 </script>
 
