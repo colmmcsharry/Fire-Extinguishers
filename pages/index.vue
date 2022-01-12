@@ -1,6 +1,5 @@
 <template lang="pug">
   .container
-    Nav
     Hero
     LargeCardDisplay(v-for="cardInfo in largeCardInfo"
     :key="cardInfo.id"

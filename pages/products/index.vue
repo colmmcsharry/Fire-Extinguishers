@@ -1,6 +1,5 @@
 <template lang="pug">
   .container
-    Nav
     LargeCardDisplay(v-for="cardInfo in largeCardInfo.slice(0,1)"
     :key="cardInfo.id"
     :cardsSection="cardInfo")

@@ -1,10 +1,12 @@
 <template lang="pug">
- div My Items page
+ div
+  Nav
+  Nuxt
 </template>
 
 <script>
 export default {
-  layout: 'no-nav'
+
 }
 </script>
 

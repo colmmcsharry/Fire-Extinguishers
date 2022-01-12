@@ -170,3 +170,12 @@ export const state = () => ({
       }
 ]
 })
+
+export const getters = {
+  getProductById: (state) => (id) => {
+    return state.products.find(product => product.id == id)
+  }
+}
+// getProductId is a method with state as it's parameter, that returns a function that returns what we want
+// id is also known as the payload, something that WE provide when we call the getter, in this case it's the id
+// so the function returns the product with the product.id that matches the id we pass in when calling the function

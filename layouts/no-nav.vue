@@ -1,12 +1,17 @@
 <template lang="pug">
- div My Items page
+ div.container
+  NuxtLink(to="/") Go Back
+  Nuxt
 </template>
 
 <script>
 export default {
-  layout: 'no-nav'
+
 }
 </script>
 
 <style scoped>
+.container {
+  padding: 5rem 0;
+}
 </style>
