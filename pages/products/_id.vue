@@ -25,7 +25,7 @@ bigcontainer
         | {{ product.description }}
     reviews
   .container.padding(v-else='')
-    pagenotfound
+    PageNotFound
 </template>
 
 <script>
