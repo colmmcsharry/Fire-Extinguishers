@@ -6,7 +6,7 @@ bigcontainer
       .info-box
         h1 {{ product.title }}
         p.snippet {{ product.snippet }}
-        rentmodal(:product='product')
+        RentModal(:product="product")
     .whats-included-container
       .included-container
         h6 Super Effective
@@ -23,7 +23,7 @@ bigcontainer
     .description-container
       p
         | {{ product.description }}
-    reviews
+    Reviews
   .container.padding(v-else='')
     PageNotFound
 </template>

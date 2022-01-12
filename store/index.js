@@ -1,4 +1,5 @@
 export const state = () => ({
+  myRentals: []  ,
   products: [
     {
         id: 1,
@@ -179,3 +180,11 @@ export const getters = {
 // getProductId is a method with state as it's parameter, that returns a function that returns what we want
 // id is also known as the payload, something that WE provide when we call the getter, in this case it's the id
 // so the function returns the product with the product.id that matches the id we pass in when calling the function
+
+export const mutations = {
+    addItem(state, id) {
+        let item = state.products.find(product => product.id == id)
+        state.myRentals.push(item)
+    }
+}
+// same as above

@@ -6,11 +6,9 @@
     #navbarSupportedContent.collapse.navbar-collapse.ml-auto
       ul.navbar-nav.ml-auto
         li.nav-item.active
-          NuxtLink.nav-link(to="/products")  Products
-            span.sr-only (current) 
+          NuxtLink.nav-link(to="/products")  Products 
         li.nav-item.active
-          NuxtLink.nav-link(to="/my-items") My Items 
-            span.sr-only (current)
+          NuxtLink.nav-link(to="/my-items") My Items     
 </template>
 
 <script>
